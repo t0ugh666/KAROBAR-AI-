@@ -15,6 +15,9 @@ so columns would buy nothing and cost a migration every time the shape moves.
 from __future__ import annotations
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 from contextlib import contextmanager
 
 SCHEMA = """
